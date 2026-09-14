@@ -44,7 +44,7 @@ The initial excitation is site 1. Sites in the three-site figures are labeled `1
 
 The line-broadening function \(g(t)\) and its first two time derivatives are evaluated numerically from Eq. (16) on the frequency grid specified above. The time-dependent transfer rates in Eq. (17) are accumulated by trapezoidal integration.
 
-The quantum master equation, Eq. (13), is propagated with a second-order Heun predictor–corrector scheme. The default propagation time step is \(1.0\times10^{-4}\) ps, with `nmax = 10000`, corresponding to a total propagation time of 1 ps.
+The quantum master equation, Eq. (13), is propagated with a second-order Heun predictor–corrector scheme using a time step of \(1.0\times10^{-4}\) ps. The propagation time is 10 ps for Figs. 1–3 (`nmax = 100000`) and 1 ps for Figs. 4 and 5 (`nmax = 10000`).
 
 The initial density matrix corresponds to excitation of site 1 in the site basis. It is transformed to the working basis before propagation, and the propagated reduced density matrix is transformed back to obtain the site populations shown in the figures.
 

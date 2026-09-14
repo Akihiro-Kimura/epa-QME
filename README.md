@@ -81,6 +81,8 @@ This repository provides the approximate-QME calculations and basis optimization
 
 ## Citation
 
+Repository: https://github.com/Akihiro-Kimura/epa-QME
+
 If you use this code, please cite the accompanying article. Citation metadata are provided in `CITATION.cff`.
 
 ## License

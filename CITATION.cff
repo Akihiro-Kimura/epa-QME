@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying article."
+title: "Reproducibility code for multisite QME calculations"
+date-released: 2026-09-14
+version: "1.0.0"
+type: software
+license: MIT
+authors:
+  - family-names: Yatsuda
+    given-names: Naoto
+  - family-names: Kimura
+    given-names: Akihiro
+preferred-citation:
+  type: article
+  title: "Quantum master equations based on an extended perturbative approach for multisite exciton dynamics: Redfield-Förster limits and application to the FMO complex"
+  authors:
+    - family-names: Yatsuda
+      given-names: Naoto
+    - family-names: Kimura
+      given-names: Akihiro

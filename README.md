@@ -2,7 +2,7 @@
 
 This repository contains the numerical code used to reproduce the approximate-QME calculations reported in the accompanying manuscript:
 
-**Quantum master equations based on an extended perturbative approach for multisite exciton dynamics: Redfield–Förster limits and application to the FMO complex**
+**Quantum master equations for multisite exciton dynamics based on an extended perturbative approach: Redfield–Förster limits and application to the FMO complex**
 
 The repository is focused on the calculations reported in the paper. The manuscript notebooks reproduce Figures 1–5 and the corresponding values of the perturbation measure \(V_{\rm ave}\).
 

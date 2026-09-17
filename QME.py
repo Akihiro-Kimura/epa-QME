@@ -352,15 +352,11 @@ def optimize_basis(
                 )
             )
 
+            # The sign is opposite to the angle convention used in Eq. (29)
+            # because of the rotation-matrix convention below.
+            # np.arctan2 directly selects the stationary branch corresponding
+            # to the minimum of f_mu_nu.
             theta = -0.25 * np.arctan2(4.0 * x, y)
-
-            # Select the stationary angle related by pi/4 that minimizes f_mu_nu.
-            if (
-                theta != 0.0
-                and 8.0 * x * np.sin(4.0 * theta)
-                + 2.0 * y * np.cos(4.0 * theta) < 0.0
-            ):
-                theta -= np.pi / 4.0
 
             ct, st = np.cos(theta), np.sin(theta)
             rotation = np.eye(n)
